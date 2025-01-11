@@ -1,8 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle, Button } from '@/components/ui/card'; // Also You can use UI lib directly easier and faster ( Tailwindcss )
 import { supabase } from '@/lib/supabase';
 
 interface Category {
